@@ -3,7 +3,7 @@
 #pragma config OSC=INTIO67 , LVP =OFF ,MCLRE=OFF ,WDT=OFF 
 void main()
 {
-	OSCCON = 0x70 ;
+	OSCCON = 0x80 ;
 	ADCON1 = 0xF ;
 	TRISA = 0 ;
 	
