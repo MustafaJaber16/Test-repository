@@ -1,8 +1,8 @@
 #include <p18F4520.h>
 #include <delays.h>
-#pragma config OSC=INTIO67 , LVP =OFF ,MCLRE=OFF ,WDT=OFF 
+#pragma config OSC=INTIO67 , LVP =OFF  ,WDT=OFF 
 
-  unsigned int start ;
+  
   
 void main()
 {  
