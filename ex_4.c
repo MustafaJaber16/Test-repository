@@ -4,7 +4,7 @@
 void main()
 {
 	OSCCON = 0x80 ;
-	ADCON1 = 0xF ;
+	ADCON1 = 0xFFF ;
 	TRISA = 0 ;
 	
 	while (1)
